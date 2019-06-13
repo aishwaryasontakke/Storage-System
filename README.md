@@ -1,8 +1,7 @@
-# Storage-System-using-Generics
-Implementation of a storage system which allows to store and remove items using generics.
+# Storage-System
 
 ## Part 1
-The following methods of a storage system are implemented:</br>
+The following methods of a storage system are implemented using generics:</br>
 
                boolean add(E e)
                void    add(int index, E element)
@@ -33,3 +32,24 @@ Following methods are implemented:</br>
                void clear()         : empty the set
                int size()           : # of elements in the set
                
+## Part 3
+Implementation of a storage solution based on a interface and a functionality requirement.
+
+                      public interface StorageI<E>  {
+                
+                              public boolean add(E e);        // 1
+                              public E get();
+                              public void clear();            // 1
+                              public boolean contains(E e);
+                              public boolean isEmpty();
+                              public void sort();             
+                              public int size();              // 1 
+                              public String getClassName();
+                      }
+
+After sort() is called, get() must return the elements in order, unless a other element is inserted. The lines in the interface marked with 1, must perform in O(1).
+
+## Part 4
+
+The sort method in Part 3 should run in O(1) time.</br>
+Underlying data structure is changed and the elements are sorted while adding itself. That is how we achieve sorting in O(1).
