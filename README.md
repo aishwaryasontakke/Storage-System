@@ -26,8 +26,8 @@ Following methods are implemented:</br>
 
 boolean       add(E e)    : add e to the set                          
 boolean       addAll()    : add all elements of the set             
-boolean       removeAll() : remove all elements of the set </br>              
-Object[]      toArray()   : return all elements of the set in an array </br>    
+boolean       removeAll() : remove all elements of the set            
+Object[]      toArray()   : return all elements of the set in an array   
 boolean       contains(Object o) : true if o is in the set, false else </br>
 boolean       remove(Object o)   : remove o, true if o could be removed </br>
 void          clear()     : empty the set </br>                                 
