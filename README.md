@@ -24,8 +24,8 @@ The operations Union and Intersection are defined on sets. It is also possible t
 
 Following methods are implemented:</br>
 
-boolean       add(E e)    : add e to the set </br>                          
-boolean       addAll()    : add all elements of the set </br>               
+boolean       add(E e)    : add e to the set                          
+boolean       addAll()    : add all elements of the set             
 boolean       removeAll() : remove all elements of the set </br>              
 Object[]      toArray()   : return all elements of the set in an array </br>    
 boolean       contains(Object o) : true if o is in the set, false else </br>
