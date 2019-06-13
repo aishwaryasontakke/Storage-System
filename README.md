@@ -52,4 +52,4 @@ After sort() is called, get() must return the elements in order, unless a other 
 ## Part 4
 
 The sort method in Part 3 should run in O(1) time.</br>
-Underlying data structure is changed and the elements are sorted while adding itself. That is how we achieve sorting in O(1).
+Underlying data structure is changed and the elements are sorted while adding itself.
