@@ -24,11 +24,12 @@ The operations Union and Intersection are defined on sets. It is also possible t
 
 Following methods are implemented:</br>
 
-boolean       add(E e)    : add e to the set                          
-boolean       addAll()    : add all elements of the set             
-boolean       removeAll() : remove all elements of the set            
-Object[]      toArray()   : return all elements of the set in an array   
-boolean       contains(Object o) : true if o is in the set, false else </br>
-boolean       remove(Object o)   : remove o, true if o could be removed </br>
-void          clear()     : empty the set </br>                                 
-int           size()      : # of elements in the set </br>                    
+               boolean add(E e)     : add e to the set
+               boolean addAll()     : add all elements of the set 
+               boolean removeAll()  : remove all elements of the set   
+               Object[] toArray()   : return all elements of the set in an array 
+               boolean contains(Object o) : true if o is in the set, else false
+               boolean remove(Object o)   : remove o, true if o could be removed
+               void clear()         : empty the set
+               int size()           : # of elements in the set
+               
